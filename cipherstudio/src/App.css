@@ -1,0 +1,23 @@
+.app {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  height: 100vh;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.sidebar {
+  background: #252526;
+  padding: 10px;
+  border-right: 1px solid #333;
+}
+
+.editor {
+  border-right: 1px solid #333;
+  padding: 10px;
+}
+
+.preview {
+  background: #fff;
+  padding: 10px;
+}
